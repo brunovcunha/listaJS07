@@ -89,6 +89,15 @@ body{
     color: white;
 }
 
+.menu a:hover{
+    background-color: rgba(0, 128, 0, 0.616);
+    font-weight: bold;
+}
+
+.menu a:active{
+    transform: scale(0.9);
+}
+
 .containerFelinos{
     display: flex;
     align-items: center;
